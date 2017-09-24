@@ -17,7 +17,8 @@ plotSubmetering <- function (dsample) {
   legend("topright",
          col = c("black", "red", "blue"), 
          legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
-         lty=1)
+         lty=1, cex=0.3)
+  
 }
 
 # read the dataframe
